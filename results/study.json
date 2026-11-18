@@ -1,0 +1,164 @@
+{
+  "source_sha256": "8de79394e95b5d5fa7c2a4d82ea24c9b4d4dc51bcb14fe52723783389450064d",
+  "study": {
+    "baseline_held_out": {
+      "bigram": {
+        "agreement_accuracy": 0.203125,
+        "nats_per_token": 1.0045981562262782,
+        "perplexity": 2.7308096934404475,
+        "target_count": 704,
+        "token_accuracy": 0.6022727272727273
+      },
+      "unigram": {
+        "agreement_accuracy": 0.0,
+        "nats_per_token": 2.609948636611544,
+        "perplexity": 13.598352376437576,
+        "target_count": 704,
+        "token_accuracy": 0.18181818181818182
+      }
+    },
+    "batch": 32,
+    "held_out_sentences": 64,
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "rate": 0.015,
+    "runs": [
+      {
+        "active_parameters": 770,
+        "attention": false,
+        "held_out": {
+          "agreement_accuracy": 0.21875,
+          "nats_per_token": 0.6616387889432951,
+          "perplexity": 1.9379656501744267,
+          "target_count": 704,
+          "token_accuracy": 0.6363636363636364
+        },
+        "initial_train_nats": 3.14253772992544,
+        "sample": "<bos> the red robot near the red tower stays amber . <eos>",
+        "seed": 7,
+        "stored_parameters": 1538,
+        "train": {
+          "agreement_accuracy": 0.2604166666666667,
+          "nats_per_token": 0.6329354837482633,
+          "perplexity": 1.8831303722729755,
+          "target_count": 2112,
+          "token_accuracy": 0.6666666666666666
+        }
+      },
+      {
+        "active_parameters": 1538,
+        "attention": true,
+        "held_out": {
+          "agreement_accuracy": 1.0,
+          "nats_per_token": 0.5382629363704841,
+          "perplexity": 1.7130286365091805,
+          "target_count": 704,
+          "token_accuracy": 0.7073863636363636
+        },
+        "initial_train_nats": 3.191177393608175,
+        "sample": "<bos> the red robot near the blue lamp stays red . <eos>",
+        "seed": 7,
+        "stored_parameters": 1538,
+        "train": {
+          "agreement_accuracy": 1.0,
+          "nats_per_token": 0.5090655222360979,
+          "perplexity": 1.6637357442340301,
+          "target_count": 2112,
+          "token_accuracy": 0.7339015151515151
+        }
+      },
+      {
+        "active_parameters": 770,
+        "attention": false,
+        "held_out": {
+          "agreement_accuracy": 0.203125,
+          "nats_per_token": 0.6618579758265037,
+          "perplexity": 1.9383904733811903,
+          "target_count": 704,
+          "token_accuracy": 0.6321022727272727
+        },
+        "initial_train_nats": 2.9359044625112425,
+        "sample": "<bos> the red robot near the red lamp stays amber . <eos>",
+        "seed": 42,
+        "stored_parameters": 1538,
+        "train": {
+          "agreement_accuracy": 0.265625,
+          "nats_per_token": 0.6320570954137968,
+          "perplexity": 1.8814769787887744,
+          "target_count": 2112,
+          "token_accuracy": 0.6680871212121212
+        }
+      },
+      {
+        "active_parameters": 1538,
+        "attention": true,
+        "held_out": {
+          "agreement_accuracy": 1.0,
+          "nats_per_token": 0.5396564398454085,
+          "perplexity": 1.7154174118636256,
+          "target_count": 704,
+          "token_accuracy": 0.6988636363636364
+        },
+        "initial_train_nats": 2.927442019659972,
+        "sample": "<bos> the red robot near the red lamp stays red . <eos>",
+        "seed": 42,
+        "stored_parameters": 1538,
+        "train": {
+          "agreement_accuracy": 1.0,
+          "nats_per_token": 0.5067156501081751,
+          "perplexity": 1.659830767874886,
+          "target_count": 2112,
+          "token_accuracy": 0.7367424242424242
+        }
+      },
+      {
+        "active_parameters": 770,
+        "attention": false,
+        "held_out": {
+          "agreement_accuracy": 0.203125,
+          "nats_per_token": 0.6424316256819721,
+          "perplexity": 1.9010980222230656,
+          "target_count": 704,
+          "token_accuracy": 0.6477272727272727
+        },
+        "initial_train_nats": 2.943454173393323,
+        "sample": "<bos> the red robot near the blue lamp stays amber . <eos>",
+        "seed": 2026,
+        "stored_parameters": 1538,
+        "train": {
+          "agreement_accuracy": 0.265625,
+          "nats_per_token": 0.634273703945915,
+          "perplexity": 1.885652102310664,
+          "target_count": 2112,
+          "token_accuracy": 0.6628787878787878
+        }
+      },
+      {
+        "active_parameters": 1538,
+        "attention": true,
+        "held_out": {
+          "agreement_accuracy": 1.0,
+          "nats_per_token": 0.530634275652162,
+          "perplexity": 1.7000102418338372,
+          "target_count": 704,
+          "token_accuracy": 0.7159090909090909
+        },
+        "initial_train_nats": 2.952016219610693,
+        "sample": "<bos> the red robot near the blue lamp stays red . <eos>",
+        "seed": 2026,
+        "stored_parameters": 1538,
+        "train": {
+          "agreement_accuracy": 1.0,
+          "nats_per_token": 0.5135481195064292,
+          "perplexity": 1.6712103418290654,
+          "target_count": 2112,
+          "token_accuracy": 0.7310606060606061
+        }
+      }
+    ],
+    "scope": "original finite synthetic grammar, not competitive natural-language modeling",
+    "split_seed": 90210,
+    "steps": 600,
+    "train_sentences": 192
+  }
+}
